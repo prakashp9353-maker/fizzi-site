@@ -1,25 +1,27 @@
-# Fizzi Website - Final code
+# 🥤 Fizzi — 3D Animated E-Commerce Landing Page
 
-This is the final code for the YouTube tutorial course where we build a 3D animated e-commerce landing page for the fictional soda brand, Fizzi!
+An interactive, high-performance web application featuring dynamic 3D product visualizations and scroll-driven animations. Originally based on the Fizzi course architecture, this project has been heavily customized to serve as a showcase of modern web engineering techniques.
 
-For more information and to watch the course go to the [course documentation](https://dub.sh/fizzi).
+## ✨ Key Features & Customizations
 
-## Skip the tutorial and launch the site
+- **Interactive 3D Elements:** Built using Three.js and React Three Fiber to render responsive, real-time 3D models directly in the browser.
+- **Custom UI Architecture:** Re-engineered core components (including navigation and call-to-action buttons) to decouple from backend database dependencies and support customized user routing.
+- **Tailored Aesthetics:** Modified layout structures, typography, and background styling to create a distinct, modern visual identity.
+- **Smooth Animations:** Scroll-triggered animations powered by GSAP for seamless page transitions.
 
-If you don’t want to go through the tutorial, but want your own version of the website deployed on Prismic, follow these directions:
+## 🛠️ Tech Stack
 
-1. Clone the code:
-    
-    ```tsx
-    npx @slicemachine/init@latest --starter course-fizzi-next
-    ```
-    
-2. Open the Prismic repository and select “English - United States”.
-3. Run the content set up script:
-    
-    ```tsx
-    npm run set-up-content
-    ```
-    
-4. Open the migration release and publish it. A URL will be printed on the screen.
-5. Set up the slice simulator URL: `http://localhost:3000/slice-simulator`
+- **Framework:** Next.js (App Router)
+- **3D Rendering:** Three.js / React Three Fiber / `@react-three/drei`
+- **Styling:** Tailwind CSS
+- **Animation:** GSAP (GreenSock Animation Platform)
+- **Language:** TypeScript
+
+## 🚀 Getting Started Locally
+
+If you'd like to run this project locally on your own machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/prakashp9353-maker/fizzi-site.git](https://github.com/prakashp9353-maker/fizzi-site.git)
+   cd fizzi-site
